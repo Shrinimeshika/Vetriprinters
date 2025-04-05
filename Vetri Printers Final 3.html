@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>VetriPrinters.com</title>
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background-image: url('C:/Users/HP/Downloads/Press2.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7); /* Darker overlay for background */
+            z-index: 0;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3.2em;
+            margin-bottom: 20px;
+            color: #C71585; /* Dark pink */
+            /* Removed glow effect */
+        }
+
+        .main-body {
+            color: orange; /* Main content color */
+            font-size: 1.4em;
+            line-height: 1.8;
+            font-weight: 600;
+            text-shadow: 1px 1px 3px #000; /* Helps make text clearer */
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        .section-heading {
+            color: brown;
+            font-size: 1.7em;
+            margin-top: 35px;
+            text-shadow: 1px 1px 3px #000;
+        }
+
+        .section-details {
+            color: darkgreen;
+            font-size: 1.3em;
+            line-height: 1.7;
+            margin: 12px 0;
+            font-weight: 600;
+            text-shadow: 1px 1px 3px #000;
+        }
+
+        a {
+            color: darkgreen;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Vetri Printers</h1>
+
+        <div class="main-body">
+            <p>
+                <span style="color: white;">Welcome to <strong>Vetri Printers</strong>!</span><br><br>
+                At Vetri Printers, we specialize in providing high-quality printing services tailored to your needs. Our services include:
+            </p>
+
+            <ul>
+                <li><strong>Wedding Cards</strong>: Elegant designs to make your special day unforgettable.</li>
+                <li><strong>Invitations</strong>: Personalized and custom invitations for all events.</li>
+                <li><strong>Visiting Cards</strong>: Professional and stylish cards that make a lasting impression.</li>
+                <li><strong>Brochures & Flyers</strong>: High-quality promotional materials to showcase your brand.</li>
+                <li><strong>Custom Printing</strong>: A variety of print options tailored to your personal or business needs.</li>
+            </ul>
+
+            <p>We use the latest technology and materials to ensure every print is vibrant, precise, and of the highest quality.</p>
+        </div>
+
+        <h2 class="section-heading">About the Owner</h2>
+        <p class="section-details">
+            V.P. Viswanathan, the founder and driving force behind Vetri Printers, has over 31 years of experience. His son Mr. V. Karthikeyan continues the legacy with the same passion and precision.
+        </p>
+
+        <h2 class="section-heading">Visit Us</h2>
+        <p class="section-details">
+            Vetri Printers, Theni, Tamil Nadu. 625 531<br>
+            Phone: 88700 87888<br>
+            Email: <a href="mailto:karthi.viswanath@gmail.com">karthi.viswanath@gmail.com</a>
+        </p>
+    </div>
+</body>
+</html>
